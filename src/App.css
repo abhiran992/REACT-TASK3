@@ -1,0 +1,52 @@
+.color-picker {
+  text-align: center;
+}
+
+button {
+  background-color: rgb(8, 178, 8);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.color-list {
+  display: flex;
+  flex-direction: row; 
+  justify-content: center; 
+  align-items: center;
+}
+
+.color-box {
+  width: 50px; 
+  height: 50px; 
+  margin: 10px;
+  cursor: pointer;
+}
+
+.color-box:hover {
+  border: 2px solid black;
+}
+
+.App {
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color:  #C8A2C8;
+}
+
+.app-container {
+  background: #f0f0f0;
+  border: 1px solid black;
+  padding: 20px;
+  border-radius: 5px;
+  width: 1000px; 
+  min-height: 200px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+}
